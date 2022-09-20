@@ -1,7 +1,3 @@
-# Twitter Clean-up [![GitHub Actions: Black workflow](https://github.com/cuducos/twitter-cleanup/workflows/Black/badge.svg)]() [![GitHub Actions: Tests workflow](https://github.com/cuducos/twitter-cleanup/workflows/Tests/badge.svg)]()
-
-> [🇧🇷 Versão em português do Brasil](docs/README.pt-BR.md)
-
 Tiny script to clean-up your Twitter account:
 
 * Removing users that have not been tweeting for a while
@@ -18,15 +14,6 @@ Tiny script to clean-up your Twitter account:
     * `TWITTER_ACCESS_TOKEN_SECRET`
     * `BOTOMETER_MASHAPE_KEY`
 
-## Installing
-
-
-Install the package with:
-
-```console
-$ pip install twitter-cleanup
-```
-
 Usage
 -----
 
@@ -42,14 +29,4 @@ Or soft-block every bot with:
 
 ```
 $ twitter-cleanup bots
-```
-
-Contributing
-------------
-
-Please, write and run tests locally, and format your code with [Black](https://github.com/ambv/black>):
-
-```console
-$ python setup.py test
-$ black .
 ```
